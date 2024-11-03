@@ -39,7 +39,7 @@ example:
 
 > ./code.exe
 
-
+<p>
 1. Insert Entry
 2. Search Nearest Neighbor
 3. Save Tree
@@ -100,3 +100,4 @@ Nearest neighbor found: [10.000000, 10.000000] - [11.000000, 11.000000]
 4. Load Tree
 5. Exit
 Choose an option: 5
+</p>
