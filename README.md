@@ -26,7 +26,6 @@ save_tree(tree, "tree.txt");
 tree = load_tree("tree.txt");
 
 # How to run
-<p>
 gcc -o code.exe main_2.c rtree.c priority_queue.c -lm
 ./code.exe
 
@@ -39,64 +38,7 @@ example:
 5; Exit
 
 > ./code.exe
-     
-1. Insert Entry
-2. Search Nearest Neighbor
-3. Save Tree
-4. Load Tree
-5. Exit
-Choose an option: 1
-Enter rectangle min x, min y, max x, max y: 0 0 1 2
-Entry inserted.
 
-1. Insert Entry
-2. Search Nearest Neighbor
-3. Save Tree
-4. Load Tree
-5. Exit
-Choose an option: 3
-Enter filename to save tree: tree
-Tree saved successfully to tree
-
-1. Insert Entry
-2. Search Nearest Neighbor
-3. Save Tree
-4. Load Tree
-5. Exit
-Choose an option: 4
-Enter filename to load tree: tree
-Tree loaded successfully from tree
-
-1. Insert Entry
-2. Search Nearest Neighbor
-2. Search Nearest Neighbor
-2. Search Nearest Neighbor
-2. Search Nearest Neighbor
-3. Save Tree
-4. Load Tree
-5. Exit
-Choose an option: 2
-Enter point (x y) to find nearest neighbor: 0 0
-4. Load Tree
-5. Exit
-Choose an option: 2
-Enter point (x y) to find nearest neighbor: 0 0
-Enter point (x y) to find nearest neighbor: 0 0
-Nearest neighbor found: [0.000000, 0.000000] - [1.000000, 2.000000] 
-
-1. Insert Entry
-1. Insert Entry
-2. Search Nearest Neighbor
-2. Search Nearest Neighbor
-3. Save Tree
-3. Save Tree
-4. Load Tree
-5. Exit
-4. Load Tree
-5. Exit
-5. Exit
-Choose an option: En
-PS E:\Course\CS201\project\final\final_code\CS201_project> .\code.exe
 
 1. Insert Entry
 2. Search Nearest Neighbor
@@ -104,7 +46,7 @@ PS E:\Course\CS201\project\final\final_code\CS201_project> .\code.exe
 4. Load Tree
 5. Exit
 Choose an option: 1
-Enter rectangle min x, min y, max x, max y: 0 0 1 2
+Enter rectangle min x, min y, max x, max y: 0 0 1 1
 Entry inserted.
 
 1. Insert Entry
@@ -113,26 +55,8 @@ Entry inserted.
 4. Load Tree
 5. Exit
 Choose an option: 1
-Enter rectangle min x, min y, max x, max y: 9 9 10 10 
+Enter rectangle min x, min y, max x, max y: 10 10 11 11
 Entry inserted.
-
-1. Insert Entry
-2. Search Nearest Neighbor
-3. Save Tree
-4. Load Tree
-5. Exit
-Choose an option: 2
-Enter point (x y) to find nearest neighbor: -1 -1
-Nearest neighbor found: [0.000000, 0.000000] - [1.000000, 2.000000] 
-
-1. Insert Entry
-2. Search Nearest Neighbor
-3. Save Tree
-4. Load Tree
-5. Exit
-Choose an option: 2
-Enter point (x y) to find nearest neighbor: 10 10
-Nearest neighbor found: [9.000000, 9.000000] - [10.000000, 10.000000]
 
 1. Insert Entry
 2. Search Nearest Neighbor
@@ -158,8 +82,8 @@ Tree loaded successfully from my_tree
 4. Load Tree
 5. Exit
 Choose an option: 2
-Enter point (x y) to find nearest neighbor: 2 2 
-Nearest neighbor found: [0.000000, 0.000000] - [1.000000, 2.000000] 
+Enter point (x y) to find nearest neighbor: -1 -1
+Nearest neighbor found: [0.000000, 0.000000] - [1.000000, 1.000000]
 
 1. Insert Entry
 2. Search Nearest Neighbor
@@ -167,12 +91,12 @@ Nearest neighbor found: [0.000000, 0.000000] - [1.000000, 2.000000]
 4. Load Tree
 5. Exit
 Choose an option: 2
-Enter point (x y) to find nearest neighbor: 11 11
-Nearest neighbor found: [9.000000, 9.000000] - [10.000000, 10.000000]
+Enter point (x y) to find nearest neighbor: 12 12
+Nearest neighbor found: [10.000000, 10.000000] - [11.000000, 11.000000]
 
 1. Insert Entry
 2. Search Nearest Neighbor
 3. Save Tree
 4. Load Tree
 5. Exit
-Choose an option: 5 </p>
+Choose an option: 5
