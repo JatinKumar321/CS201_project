@@ -26,6 +26,7 @@ save_tree(tree, "tree.txt");
 tree = load_tree("tree.txt");
 
 # How to run
+<p>
 gcc -o code.exe main_2.c rtree.c priority_queue.c -lm
 ./code.exe
 
@@ -174,4 +175,4 @@ Nearest neighbor found: [9.000000, 9.000000] - [10.000000, 10.000000]
 3. Save Tree
 4. Load Tree
 5. Exit
-Choose an option: 5
+Choose an option: 5 </p>
