@@ -1,13 +1,15 @@
 # R-tree implementaion and application in nearest neighbor finding
 
 # file structure
+'''
 1; priority_queue.h - header for priority queue
 2; priority_queue.c - implementation of priority queue
 3; r_tree.h - header for rtree
 4; r_tree.c - implementation of rtree
 5; main_2.c - contain main function with ui inteface
-
+'''
 # Operations on R-tree
+'''
 1; Initialize R-tree
 2; Insert a point
 Entry *entry = (Entry *)malloc(sizeof(Entry));
@@ -24,8 +26,9 @@ Entry *nearest = nearest_neighbor(tree, point);
 4; save and load R-tree
 save_tree(tree, "tree.txt");
 tree = load_tree("tree.txt");
-
+'''
 # How to run
+'''
 gcc -o code.exe main_2.c rtree.c priority_queue.c -lm
 ./code.exe
 
@@ -36,10 +39,10 @@ example:
 3; Save tree
 4; Load tree
 5; Exit
-
+'''
 > ./code.exe
 
-<p>
+'''
 1. Insert Entry
 2. Search Nearest Neighbor
 3. Save Tree
@@ -100,4 +103,4 @@ Nearest neighbor found: [10.000000, 10.000000] - [11.000000, 11.000000]
 4. Load Tree
 5. Exit
 Choose an option: 5
-</p>
+'''
